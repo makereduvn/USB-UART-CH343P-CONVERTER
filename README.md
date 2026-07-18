@@ -49,8 +49,6 @@ Với thiết kế nhỏ gọn, nhiều tính năng tích hợp và khả năng 
 
 ## Thông số kỹ thuật
 
-| Thông số | Giá trị |
-|----------|---------|
 | **Model** | USB-UART CH343P Converter |
 | **Chip USB-UART** | WCH CH343P |
 | **Chuẩn giao tiếp Host** | USB Type-C |
