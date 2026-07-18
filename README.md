@@ -1,7 +1,6 @@
 # Mạch USB-UART CH343P Converter
 
 ## Giới thiệu sản phẩm
-
 **Mạch USB-UART CH343P Converter** là mạch chuyển đổi giao tiếp **USB Type-C sang UART TTL** sử dụng **IC CH343P chính hãng WCH**, hỗ trợ tốc độ truyền dữ liệu lên đến **6Mbps**, mang lại khả năng giao tiếp ổn định, tốc độ cao và tương thích với nhiều hệ điều hành như **Windows, macOS, Linux và Android**. Đây là công cụ lý tưởng để lập trình, Debug và giao tiếp Serial với các vi điều khiển như **Arduino, ESP32, ESP8266, STM32, AVR, PIC** cùng nhiều thiết bị UART TTL khác.
 
 Khác với các mạch USB-UART thông thường, sản phẩm được thiết kế tối ưu cho việc **nạp chương trình tự động**. Ngoài hai chân **TXD** và **RXD**, mạch còn tích hợp sẵn chân **AR (Arduino Reset)** cùng tụ kích Reset giúp tự động Reset khi nạp chương trình cho Arduino. Đồng thời, mạch cũng được trang bị **ER (ESP Reset)** và **IO0**, đã tích hợp đầy đủ linh kiện điều khiển Auto Download, cho phép nạp chương trình cho **ESP32** và **ESP8266** hoàn toàn tự động mà không cần nhấn nút **BOOT** hoặc **RESET**.
@@ -13,7 +12,6 @@ Mạch hỗ trợ lựa chọn mức điện áp giao tiếp **3.3V hoặc 5V** 
 Với thiết kế nhỏ gọn, nhiều tính năng tích hợp và khả năng tương thích cao, **USB-UART CH343P Converter** là công cụ không thể thiếu dành cho Maker, sinh viên, kỹ sư điện tử và nhà phát triển hệ thống nhúng.
 
 ## Ưu điểm nổi bật
-
 - **Sử dụng IC CH343P chính hãng WCH**
   - Phiên bản nâng cấp của CH340G với tốc độ truyền dữ liệu lên đến **6Mbps**.
   - Hoạt động ổn định, độ trễ thấp và khả năng tương thích cao.
@@ -48,7 +46,6 @@ Với thiết kế nhỏ gọn, nhiều tính năng tích hợp và khả năng 
   - Phát triển hệ thống nhúng, IoT và Robot.
 
 ## Thông số kỹ thuật
-
 | Thông số | Mô tả |
 |----------|---------|
 | **Model** | USB-UART CH343P Converter |
@@ -67,7 +64,6 @@ Với thiết kế nhỏ gọn, nhiều tính năng tích hợp và khả năng 
 | **Ứng dụng** | Arduino, ESP32, ESP8266, STM32, AVR, PIC, Debug Serial, IoT, Robot |
 
 ## Sơ đồ chân (Pinout)
-
 | Chân | Chức năng | Mô tả |
 |------|-----------|-------|
 | **3V3** | Nguồn 3.3V | Nguồn 3.3V được tạo bởi IC LM1117, dòng cấp tối đa khoảng **700mA**. |
@@ -80,9 +76,15 @@ Với thiết kế nhỏ gọn, nhiều tính năng tích hợp và khả năng 
 | **IO0** | ESP Boot Mode | Chân điều khiển GPIO0 của ESP32/ESP8266, tự động đưa ESP vào chế độ Download khi nạp chương trình. |
 | **VIO** | Logic Level Select | Jumper lựa chọn mức điện áp logic cho TXD và RXD (**3.3V hoặc 5V**). |
 
- ## Hình ảnh sản phẩm
-![USB-UART CH343P](/extras/ch343p1.png)
+## Cài đặt Driver
+Thông thường Driver sẽ tự nhận trên hầu hết các hệ điều hành, nếu máy tính chưa nhận driver, [tải và cài đặt Driver tại đây.](https://www.wch-ic.com/downloads/CH341SER_ZIP.html)
+
+### Kích thước
+![USB-UART CH343P](/extras/ch343p1.jpg)
+
+## Hình ảnh sản phẩm
 ![USB-UART CH343P](/extras/ch343p2.png)
+![USB-UART CH343P](/extras/ch343p3.png)
 
 ## Miễn trừ trách nhiệm
 Sản phẩm này là bo mạch phát triển được thiết kế phục vụ cho mục đích nghiên cứu, thử nghiệm và học tập, không phải là một thiết bị hoàn chỉnh. Trong trường hợp người dùng kết hợp mạch này với các linh kiện, thiết bị hoặc phần mềm khác để tạo thành một hệ thống hoặc sản phẩm hoàn chỉnh, mọi chức năng và tính phù hợp của sản phẩm sau cùng đều thuộc trách nhiệm của người dùng.
