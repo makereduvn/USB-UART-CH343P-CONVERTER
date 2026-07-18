@@ -1,4 +1,4 @@
-# Mạch USB-UART CH343P Converter
+# Mạch chuyển giao tiếp MKE-P01 USB-UART CH343P Converter
 
 ## Giới thiệu sản phẩm
 **Mạch USB-UART CH343P Converter** là mạch chuyển đổi giao tiếp **USB Type-C sang UART TTL** sử dụng **IC CH343P chính hãng WCH**, hỗ trợ tốc độ truyền dữ liệu lên đến **6Mbps**, mang lại khả năng giao tiếp ổn định, tốc độ cao và tương thích với nhiều hệ điều hành như **Windows, macOS, Linux và Android**. Đây là công cụ lý tưởng để lập trình, Debug và giao tiếp Serial với các vi điều khiển như **Arduino, ESP32, ESP8266, STM32, AVR, PIC** cùng nhiều thiết bị UART TTL khác.
