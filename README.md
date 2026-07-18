@@ -1,11 +1,11 @@
 # Mạch chuyển giao tiếp MKE-P01 USB-UART CH343P Converter
 
 ## Giới thiệu sản phẩm
-**Mạch USB-UART CH343P Converter** là mạch chuyển đổi giao tiếp **USB Type-C sang UART TTL** sử dụng **IC CH343P chính hãng WCH**, hỗ trợ tốc độ truyền dữ liệu lên đến **6Mbps**, mang lại khả năng giao tiếp ổn định, tốc độ cao và tương thích với nhiều hệ điều hành như **Windows, macOS, Linux và Android**. Đây là công cụ lý tưởng để lập trình, Debug và giao tiếp Serial với các vi điều khiển như **Arduino, ESP32, ESP8266, STM32, AVR, PIC** cùng nhiều thiết bị UART TTL khác.
+**Mạch chuyển giao tiếp MKE-P01 USB-UART CH343P Converter** là mạch chuyển đổi giao tiếp **USB Type-C sang UART TTL** sử dụng **IC CH343P chính hãng WCH**, hỗ trợ tốc độ truyền dữ liệu lên đến **6Mbps**, mang lại khả năng giao tiếp ổn định, tốc độ cao và tương thích với nhiều hệ điều hành như **Windows, macOS, Linux và Android**. Đây là công cụ lý tưởng để lập trình, Debug và giao tiếp Serial với các vi điều khiển như **Arduino, ESP32, ESP8266, STM32, AVR, PIC** cùng nhiều thiết bị UART TTL khác.
 
 Khác với các mạch USB-UART thông thường, sản phẩm được thiết kế tối ưu cho việc **nạp chương trình tự động**. Ngoài hai chân **TXD** và **RXD**, mạch còn tích hợp sẵn chân **AR (Arduino Reset)** cùng tụ kích Reset giúp tự động Reset khi nạp chương trình cho Arduino. Đồng thời, mạch cũng được trang bị **ER (ESP Reset)** và **IO0**, đã tích hợp đầy đủ linh kiện điều khiển Auto Download, cho phép nạp chương trình cho **ESP32** và **ESP8266** hoàn toàn tự động mà không cần nhấn nút **BOOT** hoặc **RESET**.
 
-Mạch hỗ trợ lựa chọn mức điện áp giao tiếp **3.3V hoặc 5V** thông qua **Jumper VIO**, giúp tương thích với hầu hết các bo mạch phát triển và module điện tử hiện nay. Bên cạnh đó, sản phẩm còn tích hợp **IC ổn áp LM1117-3.3V** có khả năng cung cấp dòng lên đến **700mA**, đủ để cấp nguồn trực tiếp cho nhiều bo mạch và module hoạt động ở mức điện áp 3.3V.
+**Mạch chuyển giao tiếp MKE-P01 USB-UART CH343P Converter** hỗ trợ lựa chọn mức điện áp giao tiếp **3.3V hoặc 5V** thông qua **Jumper VIO**, giúp tương thích với hầu hết các bo mạch phát triển và module điện tử hiện nay. Bên cạnh đó, sản phẩm còn tích hợp **IC ổn áp LM1117-3.3V** có khả năng cung cấp dòng lên đến **700mA**, đủ để cấp nguồn trực tiếp cho nhiều bo mạch và module hoạt động ở mức điện áp 3.3V.
 
 Để tăng độ bền và độ an toàn trong quá trình sử dụng, mạch còn được trang bị **diode bảo vệ nguồn USB** và **diode chống tĩnh điện (ESD Protection)**, giúp bảo vệ cả máy tính và thiết bị kết nối khỏi các sự cố về điện.
 
