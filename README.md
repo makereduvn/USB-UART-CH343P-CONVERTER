@@ -48,7 +48,7 @@ Với thiết kế nhỏ gọn, nhiều tính năng tích hợp và khả năng 
 ## Thông số kỹ thuật
 | Thông số | Mô tả |
 |----------|---------|
-| **Model** | USB-UART CH343P Converter |
+| **Model** | MKE-P01 USB-UART CH343P Converter |
 | **Chip USB-UART** | WCH CH343P |
 | **Chuẩn giao tiếp Host** | USB Type-C |
 | **Chuẩn giao tiếp Device** | UART TTL |
