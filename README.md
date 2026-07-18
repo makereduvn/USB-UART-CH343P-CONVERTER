@@ -49,6 +49,7 @@ Với thiết kế nhỏ gọn, nhiều tính năng tích hợp và khả năng 
 
 ## Thông số kỹ thuật
 
+| Thông số | |
 |----------|---------|
 | **Model** | USB-UART CH343P Converter |
 | **Chip USB-UART** | WCH CH343P |
@@ -58,7 +59,7 @@ Với thiết kế nhỏ gọn, nhiều tính năng tích hợp và khả năng 
 | **Điện áp logic UART** | 3.3V / 5V (chọn bằng Jumper VIO) |
 | **Nguồn 3.3V tích hợp** | LM1117-3.3V |
 | **Dòng đầu ra 3.3V** | Tối đa 700mA |
-| **Các chân giao tiếp chính** | TXD, RXD, GND, VCC, 3V3, 5V |
+| **Các chân giao tiếp** | TXD, RXD, GND, VCC, 3V3, 5V |
 | **Chân hỗ trợ Arduino** | AR (Arduino Auto Reset) |
 | **Chân hỗ trợ ESP** | ER (ESP Reset), IO0 (Auto Download) |
 | **Mạch bảo vệ** | Diode bảo vệ USB, ESD Protection |
